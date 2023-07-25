@@ -118,7 +118,6 @@ button:focus-visible {
   font-style: normal;
   line-height: 104%;
   border:0;
-  vertical-align: center;
 }
 
 .header__theme-button_is-active {
@@ -172,6 +171,9 @@ button:focus-visible {
   z-index: -1;
 }
 
+.colored-text {
+  display: inline-block;
+}
 
 .colored-text::after {
   content:'';
