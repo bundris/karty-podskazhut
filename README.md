@@ -1,0 +1,1 @@
+https://github.com/bundris/karty-podskazhut
