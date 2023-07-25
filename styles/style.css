@@ -2,8 +2,8 @@
   --bg-color: #F3EFEC;
   --text-color: #312A4E;
   --accent-color: #FFAB6B;
-  --main-font:Raleway, sans-serif;
-  --accent-font:'STIX Two Text', serif;
+  --main-font:Raleway;
+  --accent-font:'STIX Two Text';
   --list-marker: url("../images/marker-light.svg");
 }
 
@@ -26,7 +26,7 @@
 
   color: var(--text-color, #312A4E);
   background-color: var(--bg-color, #F3EFEC);
-  font-family: var(--main-font, Raleway, sans-serif);
+  font-family: var(--main-font, sans-serif);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -58,9 +58,9 @@ button:focus-visible {
 }
 
 .heading {
-  color: var(--text-color);
+  color: var(--text-color, #312A4E);
   text-align: center;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font, serif);
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
@@ -91,14 +91,14 @@ button:focus-visible {
   border-block-end: 1px;
   border-inline: 0;
   border-style: solid;
-  border-color: var(--text-color);
+  border-color: var(--text-color, #312A4E);
 }
 
 .header__title {
   text-align: center;
   font-size: clamp(3.75rem, 2.6786rem + 5.3571vw, 7.5rem);
-  font-family: var(--accent-font);
-  color: var(--text-color);
+  font-family: var(--accent-font, serif);
+  color: var(--text-color, #312A4E);
   margin-block-end: 40px;
 }
 
@@ -156,7 +156,7 @@ button:focus-visible {
   bottom:0.1em;
   inline-size: calc(100% + 0.4em);
   height: 0.35em;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color, #FFAB6B);
   z-index: -1;
 }
 
@@ -184,7 +184,7 @@ button:focus-visible {
   background-image:url("../images/pattern.svg");
   background-position-y: bottom;
 
-  background-color: var(--accent-color);
+  background-color: var(--accent-color, #FFAB6B);
   z-index: -1;
 }
 
@@ -209,7 +209,7 @@ button:focus-visible {
   font-weight: 400;
   line-height: normal;
   text-align: center;
-  border-block-end:1px solid var(--text-color);
+  border-block-end:1px solid var(--text-color, #312A4E);
 }
 
 .content__blockquote {
@@ -253,14 +253,14 @@ button:focus-visible {
 
 .content__text-block_type_first-lettered > .content__paragraph:first-of-type:first-letter {
   display: inline-block;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color, #FFAB6B);
   padding-left: 4px;
   padding-right: 4px;
   margin-inline-end: 1px;
   font-size: 27px;
   font-weight: 700;
   line-height: 33px;
-  border: 1px solid var(--text-color);
+  border: 1px solid var(--text-color, #312A4E);
 }
 
 .content__card {
@@ -271,11 +271,11 @@ button:focus-visible {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid var(--text-color);
+  border: 1px solid var(--text-color, #312A4E);
 }
 
 .content__card-title {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font, serif);
   text-align: center;
   font-size: 60px;
   font-style: normal;
@@ -297,7 +297,7 @@ button:focus-visible {
   margin-block-start:10%;
   padding: 2.5%;
   color: currentColor;
-  border-block-start: 1px solid var(--text-color);
+  border-block-start: 1px solid var(--text-color, #312A4E);
 }
 
 .footer__copyright {
