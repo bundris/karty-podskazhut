@@ -1,1 +1,1 @@
-Most annoying file in proj
+https://github.com/bundris/karty-podskazhut
